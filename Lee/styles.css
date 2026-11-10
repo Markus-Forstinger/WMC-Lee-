@@ -1,0 +1,11 @@
+body {
+    background-image: url("background.png");
+    margin: 10%;
+}
+.background {
+    background-color: rgba(128, 128, 128, 0.6);
+}
+
+.blue{
+    color: blue;
+}

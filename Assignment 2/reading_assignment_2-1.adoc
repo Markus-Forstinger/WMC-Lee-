@@ -1,0 +1,132 @@
+:nofooter:
+:sectnums:
+
+= Reading Assignment 2
+
+== Objective
+The assignment's goal is to get you deeper into terms concerning html and to make you familiar with basic terms of Cascading Style Sheets (css).
+
+== Materials
+
+=== HTML
+. https://www.w3schools.com/html/html_basic.asp[Basics]
+. https://www.w3schools.com/html/html_elements.asp[HTML elements] - Be careful that the information about "empty elements" is not according to the spec. Following the W3C specification we call them _void elements_.
+. https://www.w3schools.com/html/html_attributes.asp[Attributes]
+. https://www.w3schools.com/html/html_headings.asp[Headings]
+. https://www.w3schools.com/html/html_paragraphs.asp[Paragraphs] - Be careful when using the `<br>` element. Doing line breaks in this style should be only at very rare occasions. Most of the time it is clearer to start a new paragraph with the text you want to have separated by a new line.
+. https://www.w3schools.com/html/html_comments.asp[Comments]
+. https://www.w3schools.com/html/html_links.asp[Links] - Skip the following sections:
+** Link Colors
+** Image as Link
+. https://www.w3schools.com/html/html_images.asp[Images] - Concentrate on the following sections only:
+** HTML Images Syntax
+** The `alt` Attribute
+** Images in Another Folder
+** Images on Another Server
+. https://www.w3schools.com/html/html_head.asp[Head] - Concentrate on the following sections only:
+** The HTML `<head>` Element
+** The HTML `<title>` Element
+** The HTML `<meta>` Element
+. https://www.w3schools.com/html/html5_semantic_elements.asp[Semantic elements] - These are the elements we structure our pages with: `<article>`, `<section>`, `<header>`, `<nav>`, `<main>`, `<aside>` and `<footer>`.
+Skip the section about `<figure>` for now.
+
+=== CSS
+. https://www.w3schools.com/css/css_howto.asp[How to add CSS] - Inline, internal and external CSS.
+In this course we always use *external* CSS, so pay attention to the `<link>` element.
+. https://www.w3schools.com/css/css_syntax.asp[Syntax] - Concentrate on the following sections only:
+** CSS Syntax
+** The element Selector
+** Grouping Selectors
+** CSS Comments
+. https://www.w3schools.com/css/css_colors.asp[Colors] - Concentrate on
+** Color Names
+** Hexadecimal Colors
+. https://www.w3schools.com/css/css_background.asp[Backgrounds] - Concentrate on
+** Background Color
+** Background Image
+** Background Image - Repeat Horizontally or Vertically
+** Background Image - Fixed position
+. https://www.w3schools.com/css/css_text.asp[Text] - Concentrate on
+** Text Color
+** Text Alignment
+** Text Decoration
+** Text Transformation
+. https://www.w3schools.com/css/css_font.asp[Fonts] - Concentrate on
+** Difference Between Serif and Sans-serif Fonts
+** Font Family
+** Font Style
+** Font Size
+** Set Font Size With Pixels
+** Set Font Size With Em
+** Font Weight
+. https://www.w3schools.com/css/css_link.asp[Link] - Concentrate on the section Styling Links only. It nicely summarizes the pseudo selectors for links.
+. https://www.w3schools.com/css/css_combinators.asp[Combinators]
+. https://www.w3schools.com/css/css_pseudo_classes.asp[Pseudo Classes] - Concentrate on
+** Syntax
+** Anchor Pseudo-classes
+** Hover on <div>
+** CSS - The `:first-child` Pseudo-class
+
+== Sample Questions
+We will have a short quiz about the topics you just read.
+To prepare and check your own level of knowledge answer these questions.
+
+=== HTML
+. Name the components of html elements properly
+- Opening tag, content, closing tag, attributes
+. Identify void elements and how they are denoted
+- elements without closing tags, (<img>)
+. Identify attributes
+- Extra information in the opening tag (scr)
+. Write down the correct `DOCTYPE` declaration
+-<!DOCTYPE html>
+. Write down syntactically correct statements for the following elements
+** Article (`<article>`) = <artictle>Hello</article>
+** Body (`<body>`) = <body>Content</body>
+** line break (`<br>`) <br>
+** Headings (`<h1>`, ...) <h1>hello world</h1>
+** Section with meta-information (`<head>`) <head>Metadata</head>
+** Top level element (`<html>`) <html land="en">Content</html>
+** Image named `Team.jpg` (`<img src="Team.jpg">`) <img src="Team.jpg" alt ="Team>
+** Paragraph (`<p>`) <p>Hello</p>
+** Section (`<section>`) <section>Content</section>
+** Label appearing in the title bar (`<title>`) <title>My Website</title>
+** Link to other pages (`<a>`) <a href="page.html">Linkk</a>
+** Comment <!-- Comment --|
+** Head with title and meta elements
+. Which element do you use for the introductory area of a page, which one for the navigation, which one for the main content?
+- <header>, <main>, <nav>
+. How many `<h1>` elements should a page have, and why must you not skip heading levels?
+- usually one main <h1>
+. How do you include an external stylesheet in an html page?
+- <link rel="stylesheet" href="style.css">
+
+=== CSS
+. Name the components of a css rule properly
+- Selector, declaration block, property and value
+. Use combinators properly: direct child, descendant, adjacent sibling, sibling
+- div > p, div p, h1 + p, h1 ~ p 
+. Specify colors by color names and in hexadecimal notation
+- red, blue, #FF0000, #0000FF
+. Declarations for color, background color
+- color: red, background-color: yellow;
+. Pseudo classes for the `<a>` element
+- :link, :visited, :hover, :active
+. Declaration for background image
+- background-image: url("image.jpg");
+. Declaration for text alignment (left, right, center, justify)
+- text-align: left|right|center|justify;
+. Declaration for text decoration (overline, underline, line-through)
+- text-decoration: overline|underline|line-through;
+. Declaration for text transformation (uppercase, lowercase, capitalize)
+- text-transform: uppercase|lowercase|capitalize;
+. Identify the difference between serif and sans-serif fonts
+- Serif haas small strokes; sans-serif has no small strokes
+. Declarations for font families
+- font-family: Arial, sans-serif;
+. Declarations for font style normal and italic
+- font-style: normal|italic;
+. Declarations for font sizes
+- font-size: 15px|1em;
+. Declarations for font weights
+- font-weight: normal|bold;

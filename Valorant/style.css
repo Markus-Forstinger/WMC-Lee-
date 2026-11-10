@@ -1,0 +1,70 @@
+h1 {
+    color: orange;
+}
+
+body {
+    font-family: sans-serif;
+    background-color: #c9c9ff;
+}
+
+p {
+    font-family: serif;
+    text-align: right;
+    text-decoration: underline;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+p:hover {
+    color: white;
+    background-color: rgba(191, 23, 23, 0.5);
+}
+
+ul {
+    list-style-type: "🦊";
+}
+
+ul ol {
+    list-style-type: devanagari;
+}
+
+td, th, caption {
+    border: 1px solid black;
+}
+
+table {
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+td, th {
+    padding: 8px;
+}
+
+tbody tr.duelists td:nth-child(2),
+tbody tr.initiators td:nth-child(2),
+tbody tr.sentinels td:nth-child(2),
+tbody tr.controllers td:nth-child(2) {
+   background-color: #ff9999;
+}
+
+tbody tr.duelists td:nth-child(3),
+tbody tr.initiators td:nth-child(3),
+tbody tr.sentinels td:nth-child(3),
+tbody tr.controllers td:nth-child(3) {
+    background-color: #99ccff;
+}
+
+tbody tr.duelists td:nth-child(4),
+tbody tr.initiators td:nth-child(4),
+tbody tr.sentinels td:nth-child(4),
+tbody tr.controllers td:nth-child(4) {
+    background-color: #99ff99;
+}
+
+tbody tr.duelists td:nth-child(5),
+tbody tr.initiators td:nth-child(5),
+tbody tr.sentinels td:nth-child(5),
+tbody tr.controllers td:nth-child(5) {
+    background-color: #cc99ff;
+}

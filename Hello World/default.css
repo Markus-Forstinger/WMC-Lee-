@@ -1,0 +1,51 @@
+h1 {
+    color: orange;
+}
+
+body {
+    font-family: sans-serif;
+    background-color: #c9c9ff;
+}
+
+p {
+    font-family: serif;
+    text-align: right;
+    text-decoration: underline;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+p:hover {
+    color: white;
+    background-color: rgba(191, 23, 23, 0.5);
+}
+
+ul {
+    list-style-type: "🦊";
+}
+
+ul ol {
+    list-style-type: devanagari;
+}
+
+td, th, caption {
+    border-width: 1px;
+    border-style: solid;
+    border-color: black;
+}
+
+.green-bg {
+    background-color: green;
+}
+
+.bold-text {
+    font-weight: bold;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+.fancy-inline {
+    border: 3px solid black;
+}

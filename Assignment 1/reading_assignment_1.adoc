@@ -1,0 +1,101 @@
+:nofooter:
+:sectnums:
+
+= Reading Assignment 1
+
+== Objective
+The assignment's goal is to get you familiar with a few basic terms concerning the world wide web (WWW) and Hypertext Markup Language (html).
+
+== Materials
+Check the resources linked in the following sections.
+
+=== World Wide Web General
+. Wikipedia article about World Wide Web. Read the https://en.wikipedia.org/wiki/World_Wide_Web#History[history section] and focus especially on the three essential technologies
+. Wikipedia article about the uniform resource locator. Read the https://en.wikipedia.org/wiki/URL[general introduction] and the https://en.wikipedia.org/wiki/URL#Syntax[section about the syntax]
+
+=== Web Server
+The Wikipedia article on web servers.
+Concentrate on the https://en.wikipedia.org/wiki/Web_server#Overview[Overview section].
+
+=== Web Client
+Wikipedia article on web browsers.
+Just read the https://en.wikipedia.org/wiki/Web_browser[general introduction] and the https://en.wikipedia.org/wiki/Web_browser#Function[section about their function]
+
+=== HTTP – How Client and Server Talk
+. https://developer.mozilla.org/en-US/docs/Web/HTTP/Overview[An overview of HTTP] - Concentrate on
+** Components of HTTP-based systems
+** Basic aspects of HTTP
+** HTTP flow
+. https://developer.mozilla.org/en-US/docs/Web/HTTP/Status[HTTP response status codes] - You do not have to learn them by heart.
+Make sure you know what a status code is, what the five classes (1xx – 5xx) mean and what `200` and `404` stand for.
+
+=== Static and Dynamic Web Pages
+Read the introductions of the Wikipedia articles on the https://en.wikipedia.org/wiki/Static_web_page[static web page] and the https://en.wikipedia.org/wiki/Dynamic_web_page[dynamic web page].
+In this course we build static web sites.
+
+=== Hello World
+. https://www.w3schools.com/tags/tag_doctype.asp[About DOCTYPE]
+. https://www.w3schools.com/tags/tag_html.asp[About the html element]
+. https://www.w3schools.com/tags/tag_head.asp[About the head element]
+. https://www.w3schools.com/tags/tag_body.asp[About the body element]
+. https://www.w3schools.com/tags/tag_title.asp[About the title element]
+. https://www.w3schools.com/tags/tag_em.asp[About the em element]
+. https://www.w3schools.com/tags/tag_strong.asp[About the strong element]
+
+== Sample Questions
+We will have a short quiz about the topics you just read.
+To prepare and check your own level of knowledge answer these questions.
+
+=== World Wide Web General
+. What are the most essential technologies that made the World Wide Web such a success?
+- Storing, Updating and finding documents and data files.
+. How are resources (html pages, images, etc) addressed on the web?
+- Trough a URL that demonstrates the path of the stored html pages, images, etc
+. What are the general components of a url?
+- schemes, : , // , host , path , ? query , # , fragment
+
+=== Web Server
+. What is a web server?
+- A web server is computer software that accepts requests via HTTP or HTTPS.
+. What does a web server do?
+- A web server Program implements one or more versions of HTTP Protocol in a client-server model.
+. How can content be stored on a web server?
+- by using filesystems and databases
+. How is content in webpages described?
+- static and  dynamic
+
+=== Web Client
+. What is a web client?
+- It is an application for accessing websites
+. What does a web client do?
+- It fetches content and displays it on the user's device
+. Are Web Client and Web Browser the same?
+- No, the Web Browser is an application that is accessing websites and a Web CLient is responsible for retrieving and facilitating end-user interaction with Web content.
+=== HTTP
+. Which steps happen between entering a url and seeing the page?
+- The client and servers are communicating by exchanging individual messages.
+. What is an HTTP request, what is an HTTP response?
+- Request consist of a client wanting to fetch a resource using Get.
+. What is a status code? What do `200` and `404` mean?
+- '200' means that the request to the server was successfully.
+. Which resources does the browser request additionally after it has received the html page?
+- it parses the document and automatically issues secondary HTTP requests for all referenced external assets and sub-resources.
+
+=== Static and Dynamic Web Pages
+. What is the difference between a static and a dynamically generated web page?
+- A static web page is getting delivered to a web browser exactly as stored.
+    and a dynamic web page is getting constructed at runtime.
+. Which of the two do we build in this course?
+- static web pages
+
+=== Hello World
+. What is the html head element?
+- The <head> element is a container for metadata and is placed between the <html> tag and the <bode> tag.
+. What does `<!DOCTYPE html>` mean?
+-It means that the declaration type is not a html tag. It is an "information" to the browser about what document type to expect.
+. What are the two top most elements within the html element?
+- <div>, <span>
+. How to emphasize a text and how is it displayed in the browser?
+- <em>, <strong>
+. How to mark up important text and how is it displayed in the browser?
+- <strong> Important text </strong> 

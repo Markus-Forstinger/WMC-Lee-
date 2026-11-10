@@ -1,0 +1,137 @@
+:nofooter:
+:sectnums:
+
+= Reading Assignment 3
+
+== Objective
+The assignment's goal is to get you into lists and tables.
+
+== Materials
+Review the resources here:
+
+. https://www.w3schools.com/html/html_lists.asp[HTML for lists]
+. https://www.w3schools.com/css/css_list.asp[CSS for lists]
+. https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Structuring_content/HTML_table_basics[HTML for tables]
+. https://www.w3schools.com/css/css_table.asp[CSS for tables]
+
+To save your valuable time we want to direct your reading and would recommend the following sections.
+
+=== HTML for lists
+* Unordered HTML List
+_ <ul>
+* Ordered HTML List
+_ <ol>
+* HTML Description Lists
+_ <dl>
+* Nested lists – see https://www.w3schools.com/html/html_lists_unordered.asp[Unordered Lists]
+_ <li>
+
+=== CSS for lists
+* Different List Item Markers
+_ list-style-type:
+* An Image as The List Item Marker
+_ list-style-image:
+* Position The List Item Markers
+_ list-style-position: 
+* Remove Default Settings
+_ list-style:
+* Styling the marker itself with the `::marker` pseudo-element
+_ list-style-type:
+
+=== HTML for tables
+* Table headers – and the `scope` attribute that tells a screen reader which cells a header belongs to
+_ <th>scope="col"</th>
+* Allowing cells to span multiple rows or columns (`colspan`, `rowspan`)
+_ colspan and rowspan
+* Adding a caption to your table with `<caption>`
+_ <caption>
+* Adding structure with `<thead>`, `<tbody>` and `<tfoot>`
+_ <th>defines a header cell in a table</th> <td>elements of the table</td>footer section of a table<tf>
+
+=== CSS for tables
+* Table Borders
+_ border: 
+* Collapse Table Borders
+_ border-collapse: collapse;
+* Table Width and Height
+_ width:, height:
+* Striped Tables
+_ tr:nth-child(even) {
+    backround-color: lightgray;
+}
+* https://www.w3schools.com/css/css_border.asp[Borders]
+** Border Style
+_ border-style: solid;
+** Border Width
+_ border-width: 1px;
+** Border Color
+_ border-color: red;
+** Border - Individual Sides
+_ border-top, border-right, border-bottom, border-left
+** Border - Shorthand Property
+_ border: 1px solid red;
+** Rounded Borders
+_ border-radius: 10px;
+
+== Sample Questions
+We will have a short quiz about the topics you just read.
+To prepare and check your own level of knowledge answer these questions.
+
+=== Lists
+. Start tags for
+** an ordered list
+_ <ol>
+** an unordered list
+_ <ul>
+** a description list
+_ <dl>
+** a list item
+_ <li> 
+** a description term
+_ <dt>
+** a description data
+_ <dd>
+. How to make bullet a square
+_ list-style-type: square;
+. How to make bullet an image named "my-bullet.png"
+_ list-style-image: url("my-bullet.png");
+. How to make bullet an uppercase roman number
+_ list-style-type: upper-roman;
+. Set bullet position to be inside the list item's text flow
+_ list-style-position: inside;
+. Set bullet position to be outside the list item's text flow
+_ list-style-position: outside;
+. Why is it a bad idea to number an unordered list with `list-style-type: decimal`?
+_ list-style-type: decimal;
+
+=== Tables
+. Start tags for
+** a table
+_ <table>
+** a table row
+_ <tr>
+** the header area of a table (`<thead>`)
+_ <thead>
+** a header cell (`<th>`)
+_ <th>
+** the body area of a table (`<tbody>`)
+_ <tbody>
+** a data cell (`<td>`)
+_ <td>
+** the footer area of a table (`<tfoot>`)
+_ <tfoot>
+. How do you give a table a title, and which element do you use for it?
+_ <caption>table title</caption>
+. What does `scope="col"` on a header cell do?
+_ it tells the screen readers that the header belongs to a column
+. Let a cell span two columns, and let another one span two rows
+_ colspan="2", rowspan="2"
+. Black dotted border of 1 px width.
+_ border: 1px dotted black;
+. Solid border of 1 px width having a red color and rounded corners
+_ border: 1px solid red;
+_ border-radius: 10px
+. Merge the borders of table cells so that they appear as one line
+_ border-collapse: collapse;
+. What are tables *not* to be used for?
+_ for page layout
